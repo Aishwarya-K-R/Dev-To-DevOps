@@ -1,0 +1,14 @@
++ set -e
+++ date
++ echo 'AWS Resource Usage Report On Mon Dec 22 21:56:42 IST 2025:'
+++ date +%F
++ report='/Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/AWS Resource Usage Daily Report/aws-resource-usage-report-2025-12-22.log'
++ echo 'List of EC2 Instances:'
++ aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'List of S3 Buckets:'
++ aws s3 ls
++ echo 'List of Lambda Functions:'
++ aws lambda list-functions
++ echo 'List of IAM Users:'
++ aws iam list-users

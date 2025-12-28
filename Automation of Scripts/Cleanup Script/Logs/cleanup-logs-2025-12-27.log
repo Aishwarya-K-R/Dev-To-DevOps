@@ -1,0 +1,13 @@
+********** Cleanup started at Sat Dec 27 22:37:01 IST 2025 **********
+********** Cleanup started at Sat Dec 27 22:37:04 IST 2025 **********
+********** Cleanup started at Sat Dec 27 22:37:12 IST 2025 **********
+Archiving files older than 400 days...
+ARCHIVE: /Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/Files/File-1 ->  /Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/Archived Files/archival-2025-12
+ARCHIVE: /Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/Files/File-2 ->  /Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/Archived Files/archival-2025-12
+ARCHIVE: /Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/Files/File-3 ->  /Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/Archived Files/archival-2025-12
+********** Cleanup finished at Sat Dec 27 22:37:12 IST 2025 **********
+********** Cleanup started at Sat Dec 27 22:40:41 IST 2025 **********
+Deleting archived files older than 30...
+DELETE: /Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/Archived Files/archival-2025-12/File-1
+DELETE: /Users/aishwaryakr/Documents/My Learnings/DevOps/Shell Scripts/Automation of Scripts/Archived Files/archival-2025-12/File-3
+********** Cleanup finished at Sat Dec 27 22:40:41 IST 2025 **********
