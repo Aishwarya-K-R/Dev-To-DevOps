@@ -17,7 +17,7 @@ A Bash script that uses **AWS CLI** and **jq** to fetch resource details and sto
 - IAM users
 
 **Steps for Implementation:**
-1. Clone the Repository:
+1. Clone the Repository:  
 **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps  
 cd 'Automation of Scripts/aws-resource-usage-report.sh'**
 2. Ensure AWS CLI is configured and required permissions are available: **aws configure**
