@@ -13,7 +13,7 @@ As a developer, I realized that:
 This repository represents my effort to **bridge the gap between development and production**.
 This repository reflects my mindset shift from:
 > **“Does the code work?”**
-> to  
+> **to**
 > **“Is this production-ready?”**
 
 This repository showcases my transition from development to understanding DevOps and production systems, demonstrating my interest in building **reliable, scalable, and maintainable software** beyond application code.
