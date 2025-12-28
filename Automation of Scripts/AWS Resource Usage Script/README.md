@@ -26,8 +26,8 @@ cd 'Automation of Scripts/aws-resource-usage-report.sh'**
 5. Update the file and folder paths as needed
 6. Save and close the script: **ESC+:wq**
 7. Run the script manually: **./aws-resource-usage.sh**
-8. Schedule the script for daily automation at **10:00** using crontab:
-**crontab -e
+8. Schedule the script for daily automation at **10:00** using crontab:  
+**crontab -e  
 0 10 * * * /path/aws-resource-usage.sh**
 
 
