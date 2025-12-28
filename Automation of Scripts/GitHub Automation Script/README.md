@@ -52,3 +52,4 @@ vi github-api-scalable.sh**
 7. Run the script manually by providing the correct arguments:   
 **./github-api.sh owner-name repo-name   
 ./github-api-scalable.sh github-accounts.txt**  
+**(Here, Each line represents one repository owner, followed by comma-separated repository names. Replace it with the correct data)**
