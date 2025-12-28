@@ -8,7 +8,7 @@ The script supports **multiple operation modes** and generates logs for audit an
 Over time, systems accumulate unused and outdated files, leading to increased disk usage and maintenance overhead.  
 Manual cleanup is error-prone and risky in production environments.
 
-**Solution and Outcomes:**
+**Solution and Outcomes:**  
 A Bash script that:  
 - Archives files older than a defined threshold  
 - Reduced active directory size from **12 KB to 0 KB** through automated archival  
