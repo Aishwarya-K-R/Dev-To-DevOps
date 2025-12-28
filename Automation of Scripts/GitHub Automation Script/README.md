@@ -42,7 +42,7 @@ cd 'Automation of Scripts/gtihub-api.sh'
 cd 'Automation of Scripts/gtihub-api-scalable.sh'**  
 2. Ensure AWS CLI is configured and required permissions are available: **aws configure**  
 3. Provide execute permission to the script:  
-**chmod +x github-api.sh
+**chmod +x github-api.sh  
 chmod +x github-api-scalable.sh**  
 4. Open the script:  
 **vi github-api.sh  
