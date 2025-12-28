@@ -46,9 +46,9 @@ cd 'Automation of Scripts/gtihub-api-scalable.sh'**
 chmod +x github-api-scalable.sh**  
 4. Open the script:  
 **vi github-api.sh  
-vi github-api-sacalable.sh**  
+vi github-api-scalable.sh**  
 5. Update the file and folder paths as needed  
 6. Save and close the script: **ESC+:wq**  
 7. Run the script manually by providing the correct arguments:   
-**./github-api.sh <owner-name> <repo-name>  
+**./github-api.sh '<owner-name> <repo-name>'  
 ./github-api github-accounts.txt**  
