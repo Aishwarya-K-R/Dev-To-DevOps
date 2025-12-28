@@ -1,4 +1,4 @@
-******************** File Cleanup, Archival & Deletion Automation ********************
+******************** File Archival & Cleanup Automation ********************
 
 This automation script performs **controlled archival and deletion of files** based on their age.  
 It is designed to reduce disk usage while preserving older data through structured archival.
@@ -10,7 +10,6 @@ Manual cleanup is error-prone and risky in production environments.
 
 **Solution and Outcomes:**  
 A Bash script that:  
-- Archives files older than a defined threshold  
 - Reduced active directory size from **12 KB to 0 KB** through automated archival  
 - Archived **100% of files older than 400 days**  
 - Automatically deleted archived files beyond **30-day retention**  
