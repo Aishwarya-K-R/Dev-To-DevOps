@@ -16,14 +16,14 @@ A Bash script that:
 - Automatically deleted archived files beyond **30-day retention**  
 - Replaced manual cleanup with a fully automated, logged process  
 
-**Operation Modes:**  
+**Operation Modes:**    
 0: Archive files older than **400 days**  
 1: Delete archived files older than **30 days**   
 Invalid or missing mode results in script termination for safety.  
 
-**Steps for Implementation:**  
-1.Clone the Repository: git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps    
-cd 'Automation of Scripts/cleanup-script.sh'  
+**Steps for Implementation:**    
+1.Clone the Repository: **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps    
+  cd 'Automation of Scripts/cleanup-script.sh'**   
 2. Ensure AWS CLI is configured and required permissions are available: aws configure  
 3. Provide execute permission to the script: chmod +x aws-resource-usage.sh  
 4. Open the script: vi aws-resource-usage.sh  
