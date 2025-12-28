@@ -22,8 +22,9 @@ A Bash script that:
 Invalid or missing mode results in script termination for safety.  
 
 **Steps for Implementation:**    
-1.Clone the Repository: **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps    
-  cd 'Automation of Scripts/cleanup-script.sh'**   
+1.Clone the Repository:   
+**git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps    
+cd 'Automation of Scripts/cleanup-script.sh'**   
 2. Ensure AWS CLI is configured and required permissions are available: aws configure  
 3. Provide execute permission to the script: chmod +x aws-resource-usage.sh  
 4. Open the script: vi aws-resource-usage.sh  
