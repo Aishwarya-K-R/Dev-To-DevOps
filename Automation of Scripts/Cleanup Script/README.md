@@ -24,10 +24,10 @@ Invalid or missing mode results in script termination for safety.
 **Steps for Implementation:**    
 1. Clone the Repository:  
 **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps  
-cd 'Automation of Scripts/aws-resource-usage-report.sh'** 
-2. Ensure AWS CLI is configured and required permissions are available: aws configure  
-3. Provide execute permission to the script: chmod +x aws-resource-usage.sh  
-4. Open the script: vi aws-resource-usage.sh  
+cd 'Automation of Scripts/cleanup-script.sh'** 
+2. Ensure AWS CLI is configured and required permissions are available: **aws configure**
+3. Provide execute permission to the script: **chmod +x aws-resource-usage.sh**  
+4. Open the script: **vi aws-resource-usage.sh**  
 5. Update the file and folder paths as needed  
-6. Save and close the script: ESC+:wq  
-7. Run the script manually: ./cleanup-script.sh  
+6. Save and close the script: **ESC+:wq**  
+7. Run the script manually: **./cleanup-script.sh**  
