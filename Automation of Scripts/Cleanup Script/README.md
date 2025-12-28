@@ -30,4 +30,7 @@ cd 'Automation of Scripts/cleanup-script.sh'**
 4. Open the script: **vi cleanup-script.sh**  
 5. Update the file and folder paths as needed  
 6. Save and close the script: **ESC+:wq**  
-7. Run the script manually: **./cleanup-script.sh**  
+7. Run the script manually: **./cleanup-script.sh**
+8. Schedule the script for automation once in a month at 11:30 using crontab:
+**crontab -e
+30 11 1 * * /path/cleanup-script.sh**
