@@ -9,7 +9,7 @@ function HomeSection() {
       >
         <div className="flex-shrink-0 flex justify-center">
           <img
-            src="/images/profile.png"
+            src="`${process.env.PUBLIC_URL}/images/profile.png"
             alt="Profile Picture"
             className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 max-w-full rounded-full object-cover shadow-xl mt-6 sm:mt-8 md:mt-10"
           />
