@@ -22,7 +22,7 @@ This demonstrates a simple playbook created to demonstrate hands-on automation o
 **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps  
 cd Ansible/Playbook**  
 2. Create required number of **EC2 instances** with one instance acting as **master(control node)** and remaining as **slaves(hosts)**  
-3. Login to master EC2 instance and enable **passwordless authenticatio**n to all the target hosts  
+3. Login to master EC2 instance and enable **passwordless authentication** to all the target hosts  
 4. Install Ansible:  
 **sudo apt install ansible  
 ansible --version**  
