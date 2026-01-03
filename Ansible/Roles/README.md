@@ -15,16 +15,16 @@ Implemented an Ansible role that:
 5. Prevents changes during **check mode**  
 
 **Outcomes:**  
-**1. 100% of files > 400 days archived
-2. 100% of archived files > 30 days deleted
-3. Active directory size reduced from 12 KB → 0 KB
-4. 0 manual interventions after automation**
+**1. 100% of files > 400 days archived  
+2. 100% of archived files > 30 days deleted  
+3. Active directory size reduced from 12 KB → 0 KB  
+4. 0 manual interventions after automation**  
 
 **Steps for Implementation:**  
 1. Clone the Repository:  
 **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps  
 cd cleanup-role**  
-2. Ensure that the **passwordless authentication** is enabled and **ansible** is installed  
+2. Ensure that the **passwordless authentication** is enabled and **ansible** is installed: **ansible --version**
 3. Run in check mode (safe dry run): **ansible-playbook -i inventory-file cleanup-playbook.yml --check**  
 4. Execute archival: **ansible-playbook -i inventory-file cleanup-playbook.yml** (no need to specify mode, as its set to archival by default)  
 5. Execute deletion: **ansible-playbook -i inventory-file cleanup-playbook.yml -e cleanup_mode=delete**
