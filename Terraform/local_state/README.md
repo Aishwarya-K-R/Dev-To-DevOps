@@ -15,7 +15,7 @@ This project demonstrates infrastructure provisioning on AWS using Terraform wit
 4. State managed locally via terraform.tfstate**  
 
 **Steps for Implementation:**  
-1. Clone the Repository:
+1. Clone the Repository:  
 **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps  
 cd 'Terraform/local_state'**  
 2. Initialize Terraform: **terraform init**  
