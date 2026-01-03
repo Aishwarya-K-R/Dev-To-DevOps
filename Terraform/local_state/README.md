@@ -18,7 +18,8 @@ This project demonstrates infrastructure provisioning on AWS using Terraform wit
 1. Clone the Repository:  
 **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps  
 cd 'Terraform/local_state'**  
-2. Initialize Terraform: **terraform init**  
-3. Preview infrastructure changes: **terraform plan**  
-4. Create EC2 instance: **terraform apply**  
-5. Clean up resources: **terraform destroy**  
+2. Do the required changes in the configuration files  
+3. Initialize Terraform: **terraform init**  
+4. Preview infrastructure changes: **terraform plan**  
+5. Create EC2 instance: **terraform apply**  
+6. Clean up resources: **terraform destroy**  
