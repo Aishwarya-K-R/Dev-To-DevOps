@@ -1,0 +1,7 @@
+---
+# defaults file for cleanup-role
+cleanup_dir: "/home/ubuntu/Files"
+archival_dir: "/home/ubuntu/Files/Archived"
+archival_days: 400
+deletion_days: 30
+cleanup_mode: "archive"
