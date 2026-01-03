@@ -25,7 +25,9 @@ Implemented an Ansible role that:
 **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps  
 cd cleanup-role**  
 2. Ensure that the **passwordless authentication** is enabled and **ansible** is installed: **ansible --version**
-3. Run in check mode (safe dry run): **ansible-playbook -i inventory-file cleanup-playbook.yml --check**  
-4. Execute archival: **ansible-playbook -i inventory-file cleanup-playbook.yml** (no need to specify mode, as its set to archival by default)  
-5. Execute deletion: **ansible-playbook -i inventory-file cleanup-playbook.yml -e cleanup_mode=delete**
-6. Navigate to the respective archival and deletion directories and check for the files  
+3. Update the inventory file(inventory-file) with target host details (private IPs)  
+4. Do the required changes in meta and default(main.yml) files  
+5. Run in check mode (safe dry run): **ansible-playbook -i inventory-file cleanup-playbook.yml --check**  
+6. Execute archival: **ansible-playbook -i inventory-file cleanup-playbook.yml** (no need to specify mode, as its set to archival by default)  
+7. Execute deletion: **ansible-playbook -i inventory-file cleanup-playbook.yml -e cleanup_mode=delete**
+8. Navigate to the respective archival and deletion directories and check for the files  
