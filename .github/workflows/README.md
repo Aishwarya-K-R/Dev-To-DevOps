@@ -11,7 +11,7 @@ This demonstrates a **CI/CD pipeline** using **GitHub Actions** to build and dep
 4. Build React app  
 5. Deploy to GitHub Pages  
 
-Runner Configuration:  
+**Runner Configuration:**  
 1. **runs-on: ubuntu-latest**  
 - Uses GitHub-hosted runners managed by GitHub  
 2. **runs-on: self-hosted**  
