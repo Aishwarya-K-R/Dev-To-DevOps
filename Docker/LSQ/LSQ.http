@@ -1,0 +1,6 @@
+@LSQ_HostAddress = http://localhost:5248
+
+GET {{LSQ_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

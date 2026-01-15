@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: np-deployment
+  labels:
+    app: aishwaryakr-portfolio
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: aishwaryakr-portfolio
+  template:
+    metadata:
+      labels:
+        app: aishwaryakr-portfolio
+    spec:
+      containers:
+      - name: np-container
+        image: aishwaryakr/portfolio:latest
+        ports:
+        - containerPort: 3000
+

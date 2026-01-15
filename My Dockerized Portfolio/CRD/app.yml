@@ -1,0 +1,9 @@
+apiVersion: platform.example.com/v1
+kind: AppDeployment
+metadata:
+ name: custom-resource-deployment
+spec:
+  image: aishwaryakr/portfolio:latest
+  replicas: 2
+  port: 3000
+  host: portfolio.local
