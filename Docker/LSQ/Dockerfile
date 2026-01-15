@@ -1,3 +1,4 @@
+# -------- Multi-Stage Build --------
 # -------- Build stage --------
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
@@ -18,3 +19,16 @@ COPY --from=build /app/publish .
 
 EXPOSE 5248
 ENTRYPOINT ["dotnet", "LSQ.dll"]
+
+# -------- Single-Stage Build --------
+# FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# WORKDIR /src
+
+# COPY ["LSQ.csproj", "./"]
+# RUN dotnet restore
+
+# COPY . .
+# RUN dotnet publish "LSQ.csproj" -c Release -o /app/publish
+
+# EXPOSE 5248
+# ENTRYPOINT ["dotnet", "LSQ.dll"]
