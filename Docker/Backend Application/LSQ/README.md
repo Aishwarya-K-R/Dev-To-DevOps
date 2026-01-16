@@ -1,4 +1,4 @@
-******************** **Backend Application Containerization using Docker** ********************
+******************** **Backend Application Containerization Using Docker** ********************
 
 This project demonstrates **production-ready containerization of a .NET Backend Application** using **Docker**, focusing on image optimization, service orchestration, and data persistence.
 
