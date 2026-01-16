@@ -9,8 +9,8 @@ This project demonstrates **production-ready containerization of a .NET Backend 
 - Redis (caching layer)
 
 **Implemented two Docker build strategies:**
-1. Single-stage build (development baseline): Image Size of **749 MB**
-2. Multi-stage build (production optimized): Image Size of **102 MB**
+1. **Single-stage build** (development baseline): Image Size of **749 MB**
+2. **Multi-stage build** (production optimized): Image Size of **102 MB**
 
 **Outcomes & Measurable Impact:**
 1. Containers orchestrated: **3 (.NET + MySQL + Redis)**
