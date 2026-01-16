@@ -1,4 +1,4 @@
-************************* **My Portfolio** *************************
+************************* **Frontend Application Containerization Using Docker** *************************
 
 Welcome to my personal portfolio website, built with React.js and deployed on Netlify, fully containerized with Docker and available in Docker Hub. This project showcases my skills, projects, and experiences as a developer.
 
