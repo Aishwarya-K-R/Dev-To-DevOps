@@ -2,13 +2,7 @@
 
 This project demonstrates **production-ready containerization of a .NET Backend Application** using **Docker**, focusing on image optimization, service orchestration, and data persistence.
 
-**Problem Statement:**
-1. Environment inconsistencies between local and production  
-2. Large container images slowing deployments  
-3. Managing multiple dependent services manually  
-4. Risk of data loss on container restarts  
-
-**Solution:**  
+**Features:**  
 **Dockerized** the backend using Docker Compose with **three containers**:
 - .NET Backend API
 - MySQL (persistent database storage using Docker volumes)
