@@ -4,7 +4,7 @@ Welcome to my personal portfolio website, built with React.js and deployed on Ne
 
 **Live Demo:** https://aishwaryakr-portfolio.netlify.app
 
-**About This Project :**
+**About This Project :**   
 This portfolio serves as a comprehensive introduction to my work and capabilities. It includes 5 sections :
 1. **Home Page:** A welcome screen with my profile.
 2. A**bout Page:** A brief overview of my education, skills and experience.
