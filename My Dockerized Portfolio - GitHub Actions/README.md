@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website, built with React.js and deployed on Netlify, fully containerized with Docker and available in Docker Hub. This project showcases my skills, projects, and experiences as a developer.
 
-This project also serves as a hands-on implementation of **GitHub Action**s, showcasing **automated builds** and **Docker image publishing**.
+This project also serves as a **hands-on implementation of GitHub Actions****, showcasing **automated builds** and **Docker image publishing**.
 
 Live Demo: https://aishwaryakr-portfolio.netlify.app
 
