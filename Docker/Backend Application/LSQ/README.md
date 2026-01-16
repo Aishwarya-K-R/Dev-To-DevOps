@@ -8,7 +8,7 @@ This project demonstrates **production-ready containerization of a .NET Backend 
 3. Managing multiple dependent services manually  
 4. Risk of data loss on container restarts  
 
-**Solution:**
+**Solution:**  
 **Dockerized** the backend using Docker Compose with **three containers**:
 - .NET Backend API
 - MySQL (persistent database storage using Docker volumes)
