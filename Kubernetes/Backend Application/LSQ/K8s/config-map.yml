@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  MYSQL_DATABASE: "LeadDB"
+  REDIS_CONN: "redis-service:6379"
+  JWT_ISSUER: "localhost"
+  JWT_AUDIENCE: "localhost"
