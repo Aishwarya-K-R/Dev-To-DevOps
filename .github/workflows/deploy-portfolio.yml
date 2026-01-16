@@ -26,13 +26,13 @@ jobs:
       # Install dependencies
       - name: Install dependencies
         run: |
-          cd "My Dockerized Portfolio"
+          cd "My Dockerized Portfolio - GitHub Actions"
           npm install
 
       # Build React app
       - name: Build
         run: |
-          cd "My Dockerized Portfolio"
+          cd "My Dockerized Portfolio - GitHub Actions"
           CI=false npm run build
 
       # Deploy to GitHub Pages
@@ -40,5 +40,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./My Dockerized Portfolio/build
+          publish_dir: ./My Dockerized Portfolio - GitHub Actions/build
 
