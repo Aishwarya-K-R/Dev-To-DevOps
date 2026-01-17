@@ -14,7 +14,7 @@ This project demonstrates a full deployment of a .NET backend application using 
 
 **Architecture:**  
 
-<img width="236" height="611" alt="Screenshot 2026-01-17 at 2 09 47 PM" src="https://github.com/user-attachments/assets/5f4376d5-9baf-4489-8d41-5aea72847958" />
+<img width="225" height="637" alt="image" src="https://github.com/user-attachments/assets/596bda8b-cc32-4442-bc2d-4e236c8d0091" />
 
 
 1. **DNS / Hosts resolution:** When we hit the API: **http://associations.backend.com:8080/**, the domain **associations.backend.com** is mapped to **localhost:8080**, as specified in **/etc/hosts** and hence **traffic** goes to **localhost**.
