@@ -2,7 +2,7 @@
 
 This folder contains the **Kubernetes deployment configuration** for the **Association Backend application**, a **.NET backend service** using **MySQL** and **Redis**, running on a **Minikube** cluster.  
 
-Docker image used (Docker Hub): **aishwaryakr/association-backend:latest**  
+Docker image used (Docker Hub): **aishwaryakr/portfolio:latest**  
 
 **Overview:**  
 This project demonstrates a full deployment of a .NET backend application using Kubernetes. It leverages:
@@ -23,7 +23,7 @@ This project demonstrates a full deployment of a .NET backend application using 
 3. **Ingress controller:** Receives request for **Host: associations.backend.com**, matches the **Ingress rules** and **forwards** request to the **backend-service** on **port 80**.
 4. **Service:** **ClusterIP** Service **load-balances traffic** to the **backend Deployment pods**.  
 5. **Deployment → Pod → Container:** The **Service** routes **traffic** to the **Pods** running the **container**, which exposes **port 5248** internally for the application. Request reaches the .NET backend inside the container.
-6. **Response flows back the same way:** **Container -> Pod -> Deployment -> Service -> Ingress -> localhost:8080 -> POSTMAN**
+6. **Response flows back the same way:** **Container -> Pod -> Service -> Ingress -> localhost:8080 -> POSTMAN**
 
 **Pre-Requisites:**  
 1. Minikube installed
@@ -33,7 +33,7 @@ This project demonstrates a full deployment of a .NET backend application using 
 **Steps for accessing the application:**  
 1. Clone the repository:  
    **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps**  
-   **cd Kubernetes/K8s**
+   **cd 'Kubernetes/Backend Application/LSQ/K8s'**
 2. Add the required data to **secrets.yml**  
 3. Start Docker: **colima start** (command varies based on OS and mode of installation)
 4. Start Minikube: **minikube start** (Docker Driver is the default driver. Drivers can be specified explicilty using --driver)
@@ -53,6 +53,8 @@ This project demonstrates a full deployment of a .NET backend application using 
    **kubectl apply -f backend-service.yml  
    kubectl apply -f mysql-service.yml  
    kubectl apply -f redis-service.yml**  
-10. Setup Ingress: **kubectl apply -f k8s/ingress.yml**  
+10. Setup Ingress: **kubectl apply -f ingress.yml**  
 11. Forwards traffic from local machine (port 8080) to the Kubernetes Ingress controller: **kubectl port-forward -n ingress-nginx svc/ingress-nginx-controller 8080:80**
 12. Hit the APIs in **POSTMAN** to access the application: **http://associations.backend.com:8080/**
+
+**Note: Steps 5, 6, and 7 need to be performed only during the initial deployment, as the MySQL data is persisted using a PersistentVolumeClaim (PVC).**
