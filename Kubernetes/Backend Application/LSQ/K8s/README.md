@@ -1,6 +1,7 @@
 ******************** **Kubernetes Deployment of Association Backend Application** ********************
 
 This folder contains the **Kubernetes deployment configuration** for the **Association Backend application**, a **.NET backend service** using **MySQL** and **Redis**, running on a **Minikube** cluster.  
+
 **Docker image used**: **aishwaryakr/association-backend:latest**  
 
 **Overview:**  
