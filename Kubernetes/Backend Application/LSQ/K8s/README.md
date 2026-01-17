@@ -47,6 +47,9 @@ This project demonstrates a full deployment of a .NET backend application using 
    │ PVC       │ │           │
    └───────────┘ └──────────┘
 
+   <img width="236" height="611" alt="Screenshot 2026-01-17 at 2 09 47 PM" src="https://github.com/user-attachments/assets/5f4376d5-9baf-4489-8d41-5aea72847958" />
+
+
 1. **DNS / Hosts resolution:** When we hit the API: **http://associations.backend.com:8080/**, the domain **associations.backend.com** is mapped to **localhost:8080**, as specified in **/etc/hosts** and hence **traffic** goes to **localhost**.
 2. **Port forwarding:** **Minikube port-forward** maps **local port 8080** → **ingress controller port 80**. So our request **localhost:8080** reaches **Ingress**.
 3. **Ingress controller:** Receives request for **Host: associations.backend.com**, matches the **Ingress rules** and **forwards** request to the **backend-service** on **port 80**.
