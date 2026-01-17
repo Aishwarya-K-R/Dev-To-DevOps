@@ -16,12 +16,13 @@ Instead of manually creating **multiple Kubernetes manifests (Deployment, Servic
   
 **Request Flow:**
 
-<img width="228" height="203" alt="image" src="https://github.com/user-attachments/assets/267a6ac0-70c7-4042-83cf-bcf02f73b8fc" />
+<img width="180" height="556" alt="image" src="https://github.com/user-attachments/assets/2af2c88b-c437-485d-bc39-e536704751f7" />
+
 
 **Steps for Implementation:**  
 1. Clone the repository:  
    **git clone https://github.com/Aishwarya-K-R/Dev-To-DevOps**    
-   **cd 'Kubernetes/Frontend Application/My Dockerized Portfolio/K8s'**  
+   **cd 'Kubernetes/Frontend Application/My Dockerized Portfolio/Custom Resource Definition'**  
 2. Start Docker: **colima start** (command varies based on OS and mode of installation)  
 3. Start Minikube: **minikube start** (Docker Driver is the default driver. Drivers can be specified explicilty using --driver)  
 4. Run the Custom Controller: **python3 custom-controller.py**  
