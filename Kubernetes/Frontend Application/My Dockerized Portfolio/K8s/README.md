@@ -1,6 +1,7 @@
 ******************** **Kubernetes Deployment of Frontend Portfolio Application** ********************
 
 This foldre contains the **Kubernetes deployment configuration** for the **Frontend Application**, deployed on a **Minikube** Kubernetes cluster and exposed using **Ingress with TLS (self-signed certificate)**.  
+
 Docker image used (Docker Hub): **aishwaryakr/portfolio:latest**  
 
 **Overview:**  
