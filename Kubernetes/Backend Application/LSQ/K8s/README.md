@@ -13,40 +13,40 @@ This project demonstrates a full deployment of a .NET backend application using 
 6. **Deployment**, **Service**, and **Ingress** resources for **managing containers**  
 
 **Architecture:**  
-    ```  Browser
-  (**associations.backend.com**)
-           │      
-           ▼      
-     ┌───────────────┐      
-     │  Localhost    │      
-     │  Port 8080    │      
-     └─────┬─────────┘      
-           │      
-           ▼      
-     ┌───────────────┐      
-     │   Ingress     │      
-     │   Port 80     │      
-     └─────┬─────────┘      
-           │      
-           ▼      
-     ┌───────────────┐      
-     │   Service     │      
-     │   Port 80     │      
-     └─────┬─────────┘      
-           │      
-           ▼      
-     ┌───────────────┐      
-     │ Deployment    │      
-     │ .NET Backend  │      
-     │ Container 5248│      
-     └─────┬─────────┘      
-         ┌─┴─────────┐      
-         │           │      
-   ┌─────▼─────┐ ┌───▼─────  ┐      
-   │ MySQL     │ │  Redis    │      
-   │ Stateful  │ │ Deployment│      
-   │ PVC       │ │           │      
-   └───────────┘ └────────── ┘      ```
+  Browser (**associations.backend.com**)
+           │
+           ▼
+     ┌───────────────┐
+     │  Localhost    │
+     │  Port 8080    │
+     └─────┬─────────┘
+           │
+           ▼
+     ┌───────────────┐
+     │   Ingress     │
+     │   Port 80     │
+     └─────┬─────────┘
+           │
+           ▼
+     ┌───────────────┐
+     │   Service     │
+     │   Port 80     │
+     └─────┬─────────┘
+           │
+           ▼
+     ┌───────────────┐
+     │ Deployment    │
+     │ .NET Backend  │
+     │ Container 5248│
+     └─────┬─────────┘
+         ┌─┴─────────┐
+         │           │
+   ┌─────▼─────┐ ┌───▼─────┐
+   │ MySQL     │ │  Redis  │
+   │ Stateful  │ │ Deployment│
+   │ PVC       │ │           │
+   └───────────┘ └──────────┘
+
 1. **DNS / Hosts resolution:** When we hit the API: **http://associations.backend.com:8080/**, the domain **associations.backend.com** is mapped to **localhost:8080**, as specified in **/etc/hosts** and hence **traffic** goes to **localhost**.
 2. **Port forwarding:** **Minikube port-forward** maps **local port 8080** → **ingress controller port 80**. So our request **localhost:8080** reaches **Ingress**.
 3. **Ingress controller:** Receives request for **Host: associations.backend.com**, matches the **Ingress rules** and **forwards** request to the **backend-service** on **port 80**.
