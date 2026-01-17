@@ -34,4 +34,4 @@ The frontend application is deployed using **Kubernetes best practices** and acc
 9. Expose the Service: **kubectl apply -f service.yml**  
 10. Setup Ingress: **kubectl apply -f ingress.yml**  
 11. Forwards traffic from local machine (port 8080) to the Kubernetes Ingress controller: **kubectl port-forward -n ingress-nginx svc/ingress-nginx-controller 8080:80**
-12. Enter the domain name to access the application: **http://foo.bar.com:8080/**
+12. Enter domain name in the browser to access the application: **http://foo.bar.com:8080/**
