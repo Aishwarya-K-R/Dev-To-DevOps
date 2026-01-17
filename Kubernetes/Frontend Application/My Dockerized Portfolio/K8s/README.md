@@ -1,7 +1,7 @@
 ******************** **Kubernetes Deployment of Frontend Portfolio Application** ********************
 
 This foldre contains the **Kubernetes deployment configuration** for the **Frontend Application**, deployed on a **Minikube** Kubernetes cluster and exposed using **Ingress with TLS (self-signed certificate)**.  
-Docker image used (Docker Hub): **aishwaryakr/association-backend:latest**  
+Docker image used (Docker Hub): **aishwaryakr/portfolio:latest**  
 
 **Overview:**  
 The frontend application is deployed using **Kubernetes best practices** and accessed securely over HTTP using a **self-signed TLS certificate**. The application is exposed externally using an **Ingress resource**, which routes traffic to the **frontend service and pods**. 
