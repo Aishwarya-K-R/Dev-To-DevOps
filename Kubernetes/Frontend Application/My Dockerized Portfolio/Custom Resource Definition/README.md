@@ -1,4 +1,4 @@
-******************** **Custom Frontend Deployment using CRD & Controller** ********************
+******************** **Custom Frontend Deployment using CRD & Controller** ********************   
 This project demonstrates deploying a frontend application on **Kubernetes** using a **Custom Resource Definition (CRD)** and a **custom controller**, providing a **higher-level abstraction** over standard Kubernetes resources.
 
 **Overview:**
